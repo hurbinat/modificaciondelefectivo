@@ -1,0 +1,194 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>modificacion del efectivo</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Nueva forma de pago</a>
+          <a href="#secc2">¿Sin efectivo?</a>
+          <a href="#secc3">Desigualdad y desconfianza</a>
+          <a href="#secc4">Poca privacidad y seguridad</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Nueva forma de pago</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Al pasar el tiempo todo a nuestro alrededor evoluciona por lo cual la manera de pago también lo está haciendo, la llegada de las tarjetas de crédito y débito siendo dinero electrónico ha estado ya hace algunos años más sin embargo el uso de estas tarjetas era muy bajo, pero con la llegada de la pandemia del 2020 se incrementó el pago mediante tarjetas, transacciones, inclusive se realizaron diversas maneras de pago con el cual no es necesario manejar el dinero en efectivo, durante el Covid-19 se tenía una gran variedad de medios electrónicos de pago con el fin de propagar el contagio mediante el dinero en efectivo. Los medios electrónicos aún en este año se han estado utilizando así que se cuestiona ¿El dinero en efectivo dejará de usarse? </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>El dinero en efectivo no era aceptado en algunos establecimientos por creencias de que era un medio de contagio del virus Covid-19 durante la pandemia.</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Todos los medios digitales de pago eran aceptados durante la pandemia porque se tenía un contacto mínimo con las personas.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>El dinero en efectivo no era aceptado en algunos establecimientos por creencias de que era un medio de contagio del virus Covid-19 durante la pandemia.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Todos los medios digitales de pago eran aceptados durante la pandemia porque se tenía un contacto mínimo con las personas.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>¿Sin efectivo?</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El vivir sin el dinero en efectivo nuestro día a dia seria completamente distinto a lo que conocemos, empezando que tendríamos que tener por obligación un método electrónico de pago, ya que sin uno no podríamos vivir, se tendrá múltiples consecuencias que diversos profesionales del tema del ámbito económico tienen en cuenta siendo algunas de ellas:</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p>El uso de nuevos medios de pagos por la desaparición del dinero en efectivo sería algo nuevo que conllevaría confusión en la población.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Desigualdad y desconfianza</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Serían unas de las consecuencias más visibles que se tendría al momento de la desaparición del dinero en efectivo ya que no toda la población cuenta con la educación financiera, acceso al internet así como la posibilidad de obtener un método de pago electrónico un ejemplo muy claro son los adultos mayores porque tienen poco interacción con los métodos de pagos electrónicos, ellos prefieren realizar sus pagos mediante el dinero en efectivo porque es más sencillo para ellos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La desconfianza viene de la mano de la desigualdad ya que si las personas nunca han tenido la oportunidad de poder hacer uso de dinero digital se provocará en ellos una falta de confianza al hacer uso del dinero o emplear un método de pago electrónico y no poder confiar en el banco para el depósito de sus ahorros.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Las personas mayores se convertirían en un sector vulnerable ante los medios electrónicos de pago.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Poca privacidad y seguridad 4</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Privacidad sería algo que no se tendría con el dinero electrónico ya que al hacer uso de algunos de los medios electrónicos de pagos en automático los bancos tendrán conocimiento de la compra y la cantidad que se gastó ya que al momento de hacer uso del dinero en efectivo es necesario la intervención de diversos intermediarios para poder hacer el proceso de obtener el producto y/o servicio.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>No se tendría esa libertad de poder comprar lo que nosotros quisiéramos sin que nadie se entere porque no se tienen el 100% de seguridad al hacer uso solamente de dinero digital porque así como se utiliza la tecnología para hacer uso de nuestro dinero también la misma tecnología puede ser una herramienta para los robos cibernéticos quedándonos en 0 en nuestras cuentas bancarias además de nuestra información mediante los hackers. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>Todos nuestros movimientos económicos serán visibles quitándonos la privacidad y dejándonos vulnerables ante robos cibernéticos.</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
